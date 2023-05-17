@@ -10,4 +10,35 @@ html{
 
 body{
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.card{
+    height: 50rem;
+    width: 40rem;
+}
+
+.card__figure{
+    width: 100%;
+    height: 30%;
+}
+
+.card__figure img{
+    height: 100%;
+    width: 100%;
+}
+
+.card__body{
+    height: 50%;
+    width: 100%;
+    background: red;
+}
+
+footer{
+    height: 20%;
+    width: 100%;
+    background: blue;
 }
